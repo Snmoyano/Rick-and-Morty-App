@@ -1,0 +1,47 @@
+.App {
+  max-width: 1620px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+input {
+  width: 50%;
+  border: none;
+  color: black;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 3px solid #08b1c6;
+  background-color: #9ed64f;
+  transition: 0.5s transform;
+  font-size: 1.5em;
+}
+input:hover .btn__search:hover {
+  background-color: white;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.card__header img {
+  height: 250px;
+  width: 100%;
+}
+
+.btn__search {
+  height: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1.5em;
+}
+
+.btn__search:hover {
+  background-color: white;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px 5px #000000;
+}

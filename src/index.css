@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+:root {
+  --backgroud-card: #062226;
+  --backgroud-body: #06292e;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Pangolin", cursive;
+}
+
+body {
+  margin: 0;
+
+  background-color: black;
+  background-color: #9ed64f;
+  color: #08b1c6;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+button {
+  border: none;
+}
+input {
+  outline: none;
+}

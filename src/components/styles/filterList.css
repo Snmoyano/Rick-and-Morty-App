@@ -1,0 +1,24 @@
+.filterList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__list {
+  background-color: red transparent;
+
+  color: #08b1c6;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.5s transform;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.container__list:hover {
+  transform: scale(1.21);
+  border: 0.5px solid #08b1c6;
+  border-radius: 10px;
+  user-select: none;
+}

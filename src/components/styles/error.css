@@ -1,0 +1,14 @@
+.error__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error__title {
+  font-size: 90px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  transition: 0.5s transform;
+}
+.error__title:hover {
+  transform: scale(1.1);
+}
